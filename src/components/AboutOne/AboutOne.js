@@ -42,10 +42,10 @@ const AboutOne = () => {
                     </h4>
                   </div>
                 </div>
-                <div className="about-one__discount">
+                {/* <div className="about-one__discount">
                   <h2>{discount}</h2>
                   <h3>Discount</h3>
-                </div>
+                </div> */}
               </div>
             </div>
           </Col>
@@ -55,8 +55,16 @@ const AboutOne = () => {
                 <span className="section-title__tagline">{tagline}</span>
                 <h2 className="section-title__title">{title}</h2>
               </div>
-              <p className="about-one__right-text">{destination}</p>
-              <ul className="list-unstyled about-one__points">
+              <div>
+                {aboutOne.destination.map((paragraph, index) => (
+                  <p className="about-one__right-text" key={index}>
+                    {paragraph}
+                  </p>
+                ))}
+              </div>
+              {/* <p className="about-one__right-text" key={index}>{destination}</p> */}
+              
+              {/* <ul className="list-unstyled about-one__points">
                 {points.map((point, index) => (
                   <li key={index}>
                     <div className="icon">
@@ -67,7 +75,7 @@ const AboutOne = () => {
                     </div>
                   </li>
                 ))}
-              </ul>
+              </ul> */}
               <a href="#" className="about-one__btn thm-btn">
                 Book with us now
               </a>

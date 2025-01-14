@@ -14,18 +14,18 @@ import React from "react";
 
 const Home = () => {
   return (
-    <Layout pageTitle="Home One">
+    <Layout pageTitle="Home">
       <MainSlider />
-      <TourSearch />
-      <DestinationsOne />
+      {/* <TourSearch /> */}
+      {/* <DestinationsOne /> */}
       <AboutOne />
       <PopularTours />
-      <VideoOne />
-      <BrandOne />
-      <TestimonialOne />
-      <GalleryOne />
+      {/* <VideoOne /> */}
+      {/* <BrandOne /> */}
+      {/* <GalleryOne /> */}
       <WhyChoose />
-      <NewsOne />
+      <TestimonialOne />
+      {/* <NewsOne /> */}
     </Layout>
   );
 };

@@ -5,7 +5,7 @@ const popularToursTwo = {
     {
       id: 1,
       image: "popular-tours-two__img-1.jpg",
-      title: "National Park 2 Days Tour",
+      title: "Maasai Mara National Park",
       superb: "8.0",
       rate: "1870",
       meta: ["3 Days", "12+", "Los Angeles"],
@@ -29,27 +29,27 @@ const popularToursTwo = {
     {
       id: 4,
       image: "popular-tours-two__img-4.jpg",
-      title: "Moscow Red City Land",
+      title: "Nairobi national park",
       superb: "8.0",
       rate: "1870",
       meta: ["3 Days", "12+", "Los Angeles"],
     },
-    {
-      id: 5,
-      image: "popular-tours-two__img-5.jpg",
-      title: "Dark Forest Adventure",
-      superb: "8.0",
-      rate: "1870",
-      meta: ["3 Days", "12+", "Los Angeles"],
-    },
-    {
-      id: 6,
-      image: "popular-tours-two__img-6.jpg",
-      title: "Discover Depth of Beach",
-      superb: "8.0",
-      rate: "1870",
-      meta: ["3 Days", "12+", "Los Angeles"],
-    },
+    // {
+    //   id: 5,
+    //   image: "popular-tours-two__img-5.jpg",
+    //   title: "Dark Forest Adventure",
+    //   superb: "8.0",
+    //   rate: "1870",
+    //   meta: ["3 Days", "12+", "Los Angeles"],
+    // },
+    // {
+    //   id: 6,
+    //   image: "popular-tours-two__img-6.jpg",
+    //   title: "Discover Depth of Beach",
+    //   superb: "8.0",
+    //   rate: "1870",
+    //   meta: ["3 Days", "12+", "Los Angeles"],
+    // },
   ],
 };
 
