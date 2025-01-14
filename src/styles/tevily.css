@@ -2118,6 +2118,7 @@ ul {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  
 }
 
 .popular-tours__single {
@@ -2131,6 +2132,7 @@ ul {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   overflow: hidden;
+  aspect-ratio: 370 / 259;
 }
 
 .popular-tours__img img {
@@ -2186,6 +2188,7 @@ ul {
   padding: 35px 40px 40px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
+  height: 200px;
 }
 
 .popular-tours__stars {

@@ -3,7 +3,7 @@ import React from "react";
 import { Image } from "react-bootstrap";
 
 const SingleTour = ({ tour = {}, userSelect = false }) => {
-  const { image, title, meta, rate, superb } = tour;
+  const { image, title, rate, superb } = tour;
 
   return (
     <div>
@@ -15,6 +15,7 @@ const SingleTour = ({ tour = {}, userSelect = false }) => {
           <Image
             src={require(`@/images/resources/${image}`).default.src}
             alt=""
+          
           />
           <div className="popular-tours__icon">
             <Link href="/tour-details">
@@ -34,13 +35,13 @@ const SingleTour = ({ tour = {}, userSelect = false }) => {
           <p className="popular-tours__rate">
             <span>${rate}</span> / Per Person
           </p>
-          <ul className="popular-tours__meta list-unstyled">
+          {/* <ul className="popular-tours__meta list-unstyled">
             {meta.map((item, index) => (
               <li key={index}>
                 <Link href="/tour-details">{item}</Link>
               </li>
             ))}
-          </ul>
+          </ul> */}
         </div>
       </div>
     </div>
