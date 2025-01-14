@@ -22,7 +22,7 @@
   --thm-reey-font: "reeyregular";
   --thm-gray: #787780;
   --thm-gray-rgb: 120, 119, 128;
-  --thm-primary: #e8604c;
+  --thm-primary: #a30a0a;
   --thm-primary-rgb: 232, 96, 76;
   --thm-black: #313041;
   --thm-black-rgb: 49, 48, 65;
@@ -292,6 +292,7 @@ ul {
   position: relative;
   display: block;
   background: var(--thm-base);
+  
 }
 
 .main-header__top {
@@ -420,46 +421,59 @@ ul {
   position: relative;
   padding: 0 0;
   z-index: 91;
+  height: 100px;
 }
 
 .main-menu-wrapper {
   position: relative;
   display: block;
+  
+  
+  
 }
 
 .main-menu-wrapper-inner {
   position: relative;
   display: block;
+  
+  
+  
 }
 
 .main-menu-wrapper__left {
   position: relative;
   display: block;
   float: left;
+  
+  
 }
 
 .main-menu-wrapper__logo {
   position: relative;
   float: left;
-  padding-top: 32px;
-  padding-bottom: 31.5px;
-  margin-right: 150px;
+  padding-top: 1px;
+  /* padding-bottom: 4px; */
+  margin-right: 180px;
+  transform: scale(0.65);
 }
 
 .main-menu-wrapper__main-menu {
   position: relative;
   display: block;
-  float: left;
+  /* float: left; */
+  float: right;
 }
 
-.main-menu-wrapper__right {
+
+
+/* .main-menu-wrapper__right {
   position: relative;
   display: flex;
   float: right;
   padding: 25px 0;
   align-items: center;
   justify-content: center;
-}
+} */
 
 .main-menu__search,
 .main-menu__user {

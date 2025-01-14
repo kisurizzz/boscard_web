@@ -18,19 +18,19 @@ const footerData = {
     {
       id: 1,
       icon: "fas fa-phone-square-alt",
-      content: "+ 92 666 999 0000",
+      content: "+254 722 242 063",
       subHref: "tel",
     },
     {
       id: 2,
       icon: "fas fa-envelope",
-      content: "needhelp@company.com",
+      content: "reservations@boscardtours.com",
       subHref: "mailto",
     },
     {
       id: 3,
       icon: "fas fa-map-marker-alt",
-      content: "666 road, broklyn street new york",
+      content: "Westlands close, Nairobi",
     },
   ],
   companies: [

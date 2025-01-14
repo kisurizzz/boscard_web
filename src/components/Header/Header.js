@@ -6,7 +6,7 @@ import React from "react";
 import { Container, Image } from "react-bootstrap";
 import NavItem from "./NavItem";
 
-const { icons, navItems, social, logo, logo2 } = headerData;
+const { icons, navItems, social, logo, logo2, logoblack, logowhite , logoblack2, logowhite2, logowhite3, logoblack3, logowhite4, logoblack4} = headerData;
 
 const Header = ({ pageTitle }) => {
   const scrollTop = useScroll(130);
@@ -44,11 +44,11 @@ const Header = ({ pageTitle }) => {
                     </a>
                   ))}
                 </div>
-                <div className="main-header__top-right-btn-box">
+                {/* <div className="main-header__top-right-btn-box">
                   <a href="#" className="thm-btn main-header__top-right-btn">
                     Become a local guide
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -79,9 +79,13 @@ const Header = ({ pageTitle }) => {
                   <Link href="/">
                     <a>
                       <Image
-                        src={pageTitle === "Home Two" ? logo2.src : logo.src}
+                        // src={pageTitle === "Home Two" ? logo2.src : logo.src}
+                        // alt=""
+                        src={pageTitle === "Home Two" ? logowhite4.src : logoblack4.src}
                         alt=""
+                        style={{ width: "auto", height: "auto", padding: '0px', margin: '0px' }}
                       />
+                      <h1 ></h1>
                     </a>
                   </Link>
                 </div>
@@ -99,14 +103,14 @@ const Header = ({ pageTitle }) => {
                   </ul>
                 </div>
               </div>
-              <div className="main-menu-wrapper__right">
+              {/* <div className="main-menu-wrapper__right">
                 <span
                   onClick={toggleSearch}
                   style={{ cursor: "pointer" }}
                   className="main-menu__search search-toggler icon-magnifying-glass"
                 ></span>
                 <a href="#" className="main-menu__user icon-avatar"></a>
-              </div>
+              </div> */}
             </div>
           </Container>
         </div>
