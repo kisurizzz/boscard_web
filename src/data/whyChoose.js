@@ -1,28 +1,30 @@
 import bg from "@/images/backgrounds/why-choose-left-bg.jpg";
 import bg2 from "@/images/shapes/why-choose-right-map.png";
+import bg3 from "@/images/backgrounds/safariboscard.jpg"
 
 const whyChoose = {
   bg,
   bg2,
+  bg3,
   toggleText: " Trips \n & tours",
-  title: "Why Choose Tevily",
+  title: "Why Choose Boscard",
   tagline: "Our benefit lists",
   description:
-    "There are many variations of passages of Lorem Ipsum is simply free text available in the market for you, but the majority have suffered alteration in some form.",
+    "Experience Kenya's untamed beauty with Boscard. We craft unforgettable safaris through Kenya's most spectacular parks to turn your African adventure dreams into reality.",
   lists: [
     {
       id: 1,
       icon: "icon-travel",
-      title: "Professional and Certified",
+      title: "Professional Transport Services",
       description:
-        "Lorem ipsum is simply free text dolor sit but the majority have suffered amet, consectetur notted.",
+        "Well-maintained, comfortable safari vehicles equipped for game drives.",
     },
     {
       id: 2,
       icon: "icon-travel-map",
-      title: "Get Instant Tour Bookings",
+      title: "Customized Safari Experiences",
       description:
-        "Lorem ipsum is simply free text dolor sit but the majority have suffered amet, consectetur notted.",
+        "Personalized itineraries tailored to guests' interests and preferences",
     },
   ],
 };

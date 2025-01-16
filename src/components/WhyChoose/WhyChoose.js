@@ -1,7 +1,7 @@
 import whyChoose from "@/data/whyChoose";
 import React, { Fragment } from "react";
 
-const { bg, bg2, toggleText, tagline, title, description, lists } = whyChoose;
+const { bg, bg2, bg3, toggleText, tagline, title, description, lists } = whyChoose;
 
 const WhyChoose = () => {
   return (
@@ -10,7 +10,7 @@ const WhyChoose = () => {
         <div className="why-choose__left">
           <div
             className="why-choose__left-bg"
-            style={{ backgroundImage: `url(${bg.src})` }}
+            style={{ backgroundImage: `url(${bg3.src})` }}
           ></div>
           <div className="why-choose__toggle">
             <p>

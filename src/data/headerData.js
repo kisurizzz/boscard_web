@@ -40,15 +40,15 @@ const navItems = [
       },
     ],
   },
-  {
-    id: 2,
-    name: "Destinations",
-    href: "/destinations",
-    subNavItems: [
-      { id: 1, name: "Destinations", href: "/destinations" },
-      { id: 2, name: "Destinations Detail", href: "/destinations-details" },
-    ],
-  },
+  // {
+  //   id: 2,
+  //   name: "Destinations",
+  //   href: "/destinations",
+  //   subNavItems: [
+  //     { id: 1, name: "Destinations", href: "/destinations" },
+  //     { id: 2, name: "Destinations Detail", href: "/destinations-details" },
+  //   ],
+  // },
   {
     id: 3,
     name: "Tours",

@@ -32,9 +32,9 @@ const SingleTour = ({ tour = {}, userSelect = false }) => {
           <h3 className="popular-tours__title">
             <Link href="/tour-details">{title}</Link>
           </h3>
-          <p className="popular-tours__rate">
+          {/* <p className="popular-tours__rate">
             <span>${rate}</span> / Per Person
-          </p>
+          </p> */}
           {/* <ul className="popular-tours__meta list-unstyled">
             {meta.map((item, index) => (
               <li key={index}>
