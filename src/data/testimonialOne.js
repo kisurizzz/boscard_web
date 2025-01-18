@@ -14,7 +14,7 @@ const testimonialOne = {
       image: "adult-woman-with-meerkat-on-her-head-kalahari-des-2023-11-27-05-19-03-utc.jpg",
       review: 5,
       description:
-        "This is due to their best service, pricing and customer support. It’s throughly refresing to such a personal touch. Duis aute irure lupsum reprehenderit.",
+        "Couldn't have asked for a better safari experience! The team was incredibly responsive during booking, and their attention to detail made our honeymoon perfect. Watching the sunset over Amboseli with Kilimanjaro in the background was unforgettable.",
       client: {
         name: "Shirley Smith",
         role: "Customer",
@@ -25,7 +25,7 @@ const testimonialOne = {
       image: "pexels-kadin-eksteen-85582952-9041576.jpg",
       review: 5,
       description:
-        "This is due to their best service, pricing and customer support. It’s throughly refresing to such a personal touch. Duis aute irure lupsum reprehenderit.",
+        "Professional from start to finish. Our family was amazed by how smoothly everything ran. Special thanks to our guide who knew exactly where to find the leopards in Masai Mara. Highly recommend!",
       client: {
         name: "Kevin Martin",
         role: "Customer",
@@ -36,7 +36,7 @@ const testimonialOne = {
       image: "pexels-sri-lanka-jeep-safari-1620486-15463659.jpg",
       review: 5,
       description:
-        "This is due to their best service, pricing and customer support. It’s throughly refresing to such a personal touch. Duis aute irure lupsum reprehenderit.",
+        "What stood out was the personal touch. Our guide wasn't just knowledgeable about wildlife, but also shared fascinating insights about local culture. The vehicle was comfortable and the whole experience felt luxurious yet authentic.",
       client: {
         name: "Jessica Brown",
         role: "Customer",
@@ -58,7 +58,7 @@ const testimonialOne = {
       image: "black-young-man-as-food-delivery-worker-2023-11-27-05-04-40-utc.jpg",
       review: 5,
       description:
-        "This is due to their best service, pricing and customer support. It’s throughly refresing to such a personal touch. Duis aute irure lupsum reprehenderit.",
+        "Excellent value for money. The team went above and beyond to ensure we had the best wildlife viewing opportunities. Seeing a cheetah hunt in action was the highlight of our trip!",
       client: {
         name: "Kevin Martin",
         role: "Customer",

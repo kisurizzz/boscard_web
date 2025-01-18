@@ -7,21 +7,21 @@ const contactPage = {
       icon: "fab fa-facebook",
       href: "#",
     },
-    {
-      id: 2,
-      icon: "fab fa-twitter",
-      href: "#",
-    },
+    // {
+    //   id: 2,
+    //   icon: "fab fa-twitter",
+    //   href: "#",
+    // },
     {
       id: 3,
       icon: "fab fa-instagram",
       href: "#",
     },
-    {
-      id: 4,
-      icon: "fab fa-dribbble",
-      href: "#",
-    },
+    // {
+    //   id: 4,
+    //   icon: "fab fa-dribbble",
+    //   href: "#",
+    // },
   ],
 };
 

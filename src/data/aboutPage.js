@@ -1,22 +1,24 @@
 import image from "@/images/resources/about-page-img.jpg";
+import image2 from "@/images/resources/pexels-sara-sukosd-575557039-27832451.jpg"
 
 const aboutPage = {
   image,
+  image2,
   tagline: "Learn about us",
-  title: "Dare to Explore with Tevily Agency",
+  title: "Dare to Explore with Boscard Tours",
   text1: "A Simply Perfect Place to Get Lost",
   text2:
-    "We are trusted by our clients and have a reputation for the best services in the field. Lorem ipsum is simply free text dolor sit amett consectetur adipiscing elit. It is a long established fact that a reader will be distracted by the readable content of a page.",
+    "Experience Kenya's untamed beauty with Boscard Tours and Travel. We craft unforgettable safaris through Kenya's most spectacular parks, combining expert guides and premium vehicles to turn your African adventure dreams into reality.",
   progress: [
     {
       id: 1,
       title: "Best Services",
-      count: 77,
+      count: 95,
     },
     {
       id: 2,
       title: "Tour Agents",
-      count: 38,
+      count: 92,
     },
   ],
 };

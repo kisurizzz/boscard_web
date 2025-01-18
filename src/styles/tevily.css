@@ -2593,6 +2593,8 @@ ul {
   display: block;
   text-align: center;
   margin-bottom: 60px;
+  
+  
 }
 
 .testimonial-one__img {
@@ -2617,6 +2619,7 @@ ul {
   transform: scale(0);
   transition: all 500ms ease;
   z-index: 1;
+  
 }
 
 .testimonial-one__single:hover .testimonial-one__img:before {
@@ -2641,6 +2644,8 @@ ul {
   padding: 50px 50px 43px;
   text-align: center;
   border-radius: var(--thm-border-radius);
+  height: 540px;
+
 }
 
 .testimonail-one__content:before {
@@ -2661,6 +2666,7 @@ ul {
   align-items: center;
   -webkit-box-pack: center;
   justify-content: center;
+
 }
 
 .testimonial-one__top-revivew-box i {

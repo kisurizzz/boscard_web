@@ -16,10 +16,10 @@ const About = () => {
       <AboutPage />
       <BookNow />
       <TestimonialOne aboutPage />
-      <VideoTwo />
-      <CounterOne />
-      <TeamOne />
-      <BrandTwo brandThree />
+      {/* <VideoTwo />
+      <CounterOne /> */}
+      {/* <TeamOne /> */}
+      {/* <BrandTwo brandThree /> */}
     </Layout>
   );
 };
