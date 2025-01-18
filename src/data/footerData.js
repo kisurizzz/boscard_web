@@ -3,9 +3,9 @@ import logo2 from "@/images/resources/logowhite4.png"
 
 const social = [
   // { icon: "fa-twitter", link: "" },
-  { icon: "fa-facebook-square", link: "" },
+  { icon: "fa-facebook-square", link: "https://www.facebook.com" },
   // { icon: "fa-pinterest-p", link: "" },
-  { icon: "fa-instagram", link: "" },
+  { icon: "fa-instagram", link: "https://www.instagram.com" },
 ];
 
 const footerData = {
@@ -15,12 +15,12 @@ const footerData = {
   year: new Date().getFullYear(),
   author: "Boscard",
   about:
-    "Welcome to our Trip and Tour Agency.",
+    "Welcome to our Tour and Travel Company.",
   icons: [
     {
       id: 1,
-      icon: "fas fa-phone-square-alt",
-      content: "+254 722 242 063",
+      icon: "fab fa-whatsapp",
+      content: "+254 722 121 633",
       subHref: "tel",
     },
     {

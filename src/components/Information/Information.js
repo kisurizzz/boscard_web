@@ -28,14 +28,14 @@ const Information = () => {
           <Col xl={4} lg={4}>
             <div className="information__single">
               <div className="information__icon">
-                <span className="icon-phone-call"></span>
+                <span className="fab fa-whatsapp"></span>
               </div>
               <div className="information__text">
                 <h4>
                   {phones.map((phone, index) => (
                     <Fragment key={index}>
                       <a
-                        href={`tel:${phone}`}
+                        href={`https://api.whatsapp.com/send?phone=254722121633&text=Hello,%20I%27d%20like%20to%20get%20in%20touch,%20more%20information!`}
                         className={`information__number-${index + 1}`}
                       >
                         {phone}

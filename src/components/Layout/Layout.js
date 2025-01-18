@@ -23,7 +23,7 @@ const Layout = ({ children, pageTitle }) => {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>{pageTitle} Boscard Tours</title>
+        <title>{pageTitle} Boscard Tours and Travel</title>
       </Head>
       <Preloader loading={loading} />
       <main style={{ opacity: loading ? 0 : 1 }} className="page-wrapper">

@@ -1,5 +1,6 @@
 import contactPage from "@/data/contactPage";
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser"
 import { Col, Container, Row } from "react-bootstrap";
 
 const { tagline, title, socials } = contactPage;
@@ -7,12 +8,27 @@ const { tagline, title, socials } = contactPage;
 const inputs = ["name", "email", "message"];
 
 const ContactPage = () => {
+  const form = useRef();
+  
   const handleSubmit = (e) => {
     e.preventDefault();
     const fromData = new FormData(e.target);
     const data = {};
     inputs.forEach((input) => (data[input] = fromData.get(input)));
     console.log(data);
+  };
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_3rckul4",
+        "template_pkert1q",
+        form.current,
+        "d0XuhLZtHuCsf0q0a"
+      )
+      e.target.reset()
   };
 
   return (

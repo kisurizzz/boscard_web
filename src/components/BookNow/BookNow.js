@@ -20,7 +20,7 @@ const BookNow = () => {
                 <h2>{title}</h2>
               </div>
               <div className="book-now__right">
-                <a href="#" className="thm-btn book-now__btn">
+                <a href="https://api.whatsapp.com/send?phone=254722121633&text=Hello,%20I%27d%20like%20to%20get%20in%20touch,%20more%20information!" className="thm-btn book-now__btn">
                   Book tour now
                 </a>
               </div>

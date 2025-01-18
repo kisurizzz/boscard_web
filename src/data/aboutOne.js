@@ -6,7 +6,7 @@ const aboutOne = {
   about,
   shape1,
   shape2,
-  phone: "+254 722 242 063",
+  phone: "+254 722 121 633",
   // discount: "30%",
   tagline: "Get to know us",
   title: "Explore Kenya, Embrace the Wild with Boscard Tours",
