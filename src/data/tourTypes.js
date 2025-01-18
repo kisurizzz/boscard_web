@@ -1,7 +1,7 @@
-import bg from "@/images/shapes/tour-types-map.png";
+// import bg from "/images/shapes/tour-types-map.png";
 
 const tourTypes = {
-  bg,
+  bg: "/images/shapes/tour-types-map.png",
   tagline: "Find the best tour",
   title: "Choose Tour Types",
   lists: [

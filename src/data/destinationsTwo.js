@@ -1,7 +1,7 @@
-import image from "@/images/shapes/destinations-two-shape.png";
+// import image from "/images/shapes/destinations-two-shape.png";
 
 const destinationsTwo = {
-  image,
+  image: "/images/shapes/destinations-two-shape.png",
   tagline: "Our destination lists",
   title: "Checkout Beautiful Places Arround the World",
   destinations: [

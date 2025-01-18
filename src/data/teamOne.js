@@ -1,7 +1,7 @@
-import bg from "@/images/shapes/team-one-map.png";
+// import bg from "/images/shapes/team-one-map.png";
 
 const teamOne = {
-  bg,
+  bg: "/images/shapes/team-one-map.png",
   tagline: "Professional people",
   title: "Meet the Team",
   teams: [

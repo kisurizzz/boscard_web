@@ -13,7 +13,12 @@ const SingleNewsOne = ({ news = {}, newsTwo = false }) => {
       style={{ userSelect: newsTwo ? "none" : "unset" }}
     >
       <div className="news-one__img">
-        <Image src={require(`@/images/blog/${image}`).default.src} alt="" />
+      <Image 
+          src={`/images/blog/${image}`} 
+          alt={title} 
+          width={500} // Set appropriate width and height
+          height={300} 
+        />
         <Link href="/news-details">
           <a>
             <span className="news-one__plus"></span>

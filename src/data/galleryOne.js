@@ -1,7 +1,7 @@
-import bg from "@/images/shapes/gallery-map.png";
+// import bg from "/images/shapes/gallery-map.png";
 
 const galleryOne = {
-  bg,
+  bg: "/images/shapes/gallery-map.png",
   galleryData: [
     "gallery-one-img-1.jpg",
     "gallery-one-img-2.jpg",

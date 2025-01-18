@@ -10,7 +10,7 @@ const WhyChoose = () => {
         <div className="why-choose__left">
           <div
             className="why-choose__left-bg"
-            style={{ backgroundImage: `url(${bg3.src})` }}
+            style={{ backgroundImage: `url(${bg3})` }}
           ></div>
           <div className="why-choose__toggle">
             <p>

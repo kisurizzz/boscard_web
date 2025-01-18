@@ -1,5 +1,5 @@
-import image from "@/images/resources/destinations-details-img-1.jpg";
-import image2 from "@/images/resources/destinations-details__discount-img.jpg";
+// import image from "/images/resources/destinations-details-img-1.jpg";
+// import image2 from "/images/resources/destinations-details__discount-img.jpg";
 
 const text1 =
   "Lorem ipsum available isn but the majority have suffered alteratin in some or form injected. Lorem Ipsum. Proin gravida nibh vel velit auctor aliqueenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum veliam nec tellus a odio tincidunt auctor.";
@@ -7,7 +7,8 @@ const text2 =
   "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some injected or words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary,";
 
 export const destinationsDetailsLeft = {
-  image,
+  image: "/images/resources/destinations-details-img-1.jpg",
+  image2: "/images/resources/destinations-details__discount-img.jpg",
   discoverTitle: "Discover Spain",
   texts: [text1, text2],
   overviewTitle: "Overview",
@@ -86,7 +87,7 @@ export const destinationsDetailsRight = {
     },
   ],
   discount: {
-    image: image2,
+    image: "/images/resources/destinations-details__discount-img.jpg",
     percent: "30%",
     title: "Discount on Spain \n Tours",
   },

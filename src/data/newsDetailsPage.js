@@ -1,5 +1,5 @@
-import image2 from "@/images/blog/author-1-1.jpg";
-import image from "@/images/blog/news-details-img-1.jpg";
+// import image2 from "/images/blog/author-1-1.jpg";
+// import image from "/images/blog/news-details-img-1.jpg";
 
 const text1 =
   " Lorem ipsum available isn but the majority have suffered alteratin in some or form injected. Lorem Ipsum. Proin gravida nibh vel velit auctor aliqueenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum veliam nec tellus a odio tincidunt auctor.";
@@ -14,7 +14,8 @@ const text4 =
   "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into unchanged. Lorem Ipsum passages publishing.";
 
 const newsDetailsPage = {
-  image,
+  image: "/images/blog/news-details-img-1.jpg",
+  image2: "/images/blog/author-1-1.jpg",
   date: "28 Aug",
   author: "Admin",
   totalComments: 2,
@@ -44,7 +45,7 @@ const newsDetailsPage = {
     },
   ],
   authorData: {
-    image: image2,
+    image: "/images/blog/author-1-1.jpg",
     name: "Christine Eve",
     description:
       "It has survived not only five centuries, but also the leap into electronic typesetting, remaining unchanged. It was popularised in the sheets containing.",

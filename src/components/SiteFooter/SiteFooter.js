@@ -24,7 +24,7 @@ const SiteFooter = () => {
                   <div className="footer-widget__about-logo">
                     <Link href="/">
                       <a>
-                        <Image src={logo2.src} alt="" />
+                        <Image src={logo2} alt="" />
                       </a>
                     </Link>
                   </div>
@@ -122,7 +122,7 @@ const SiteFooter = () => {
                 <div className="site-footer__bottom-left">
                   <div className="footer-widget__social">
                     {social.map(({ icon, link }, index) => (
-                      <a href={link} key={index} target="blank">
+                      <a href={link} key={index} target="blank" rel="noopener noreferrer">
                         <i className={`fab ${icon}`}></i>
                       </a>
                     ))}

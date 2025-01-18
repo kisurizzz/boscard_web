@@ -1456,7 +1456,7 @@ ul {
   position: absolute;
   bottom: 7px;
   right: -8px;
-  background-image: url(../assets/images/shapes/main-slider-shape-1.png);
+  background-image: url(/images/shapes/main-slider-shape-1.png);
   background-repeat: no-repeat;
   width: 409px;
   height: 24px;
@@ -1990,7 +1990,7 @@ ul {
   bottom: -20px;
   right: 26px;
   content: "";
-  background-image: url(../assets/images/shapes/about-one-call-shape-1.png);
+  background-image: url(/images/shapes/about-one-call-shape-1.png);
   background-repeat: no-repeat;
   height: 20px;
   width: 33px;
@@ -2656,7 +2656,7 @@ ul {
   height: 19px;
   width: 63px;
   background-repeat: no-repeat;
-  background-image: url(../assets/images/shapes/testimonial-one-shape-1.png);
+  background-image: url(/images/shapes/testimonial-one-shape-1.png);
   content: "";
 }
 
@@ -2975,7 +2975,7 @@ ul {
   right: 32px;
   bottom: 0;
   content: "";
-  background-image: url(../assets/images/shapes/why-choo-toggle-shape.png);
+  background-image: url(/images/shapes/why-choo-toggle-shape.png);
   background-repeat: no-repeat;
   transform: rotate(-27deg);
   z-index: -1;

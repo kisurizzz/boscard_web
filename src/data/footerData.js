@@ -1,5 +1,5 @@
-import logo from "@/images/resources/footer-logo.png";
-import logo2 from "@/images/resources/logowhite4.png"
+// import logo from "/images/resources/footer-logo.png";
+// import logo2 from "/images/resources/logowhite4.png"
 
 const social = [
   // { icon: "fa-twitter", link: "" },
@@ -9,8 +9,8 @@ const social = [
 ];
 
 const footerData = {
-  logo,
-  logo2,
+  logo: "/images/resources/footer-logo.png",
+  logo2: "/images/resources/logowhite4.png",
   social,
   year: new Date().getFullYear(),
   author: "Boscard",

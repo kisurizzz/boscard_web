@@ -1,11 +1,11 @@
-import bg from "@/images/shapes/about-page-testimonial-map.png";
-import shape1 from "@/images/shapes/testimonial-one-shape-2.png";
-import shape2 from "@/images/shapes/testimonial-one-shape-3.png";
+// import bg from "/images/shapes/about-page-testimonial-map.png";
+// import shape1 from "/images/shapes/testimonial-one-shape-2.png";
+// import shape2 from "/images/shapes/testimonial-one-shape-3.png";
 
 const testimonialOne = {
-  bg,
-  shape1,
-  shape2,
+  bg: "/images/shapes/about-page-testimonial-map.png",
+  shape1: "/images/shapes/testimonial-one-shape-2.png",
+  shape2: "/images/shapes/testimonial-one-shape-3.png",
   tagline: "Testimonials & reviews",
   title: "What They’re Saying",
   testimonials: [

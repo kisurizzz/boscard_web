@@ -63,7 +63,7 @@ const BrandOne = () => {
                   {brands.map((brand, index) => (
                     <SwiperSlide key={index}>
                       <Image
-                        src={require(`@/images/brand/${brand}`).default.src}
+                        src={require(`@/../public/images/brand/${brand}`).default.src}
                         alt=""
                       />
                     </SwiperSlide>

@@ -1,13 +1,13 @@
-import logo from "@/images/resources/logo-1.png";
-import logo2 from "@/images/resources/logo-2.png";
-import logoblack from '@/images/resources/logoblack.png'
-import logowhite from '@/images/resources/logowhite.png'
-import logowhite2 from '@/images/resources/logowhite2.png'
-import logoblack2 from '@/images/resources/logoblack2.png'
-import logoblack3 from '@/images/resources/logoblack3.png'
-import logowhite3 from '@/images/resources/logowhite3.png'
-import logowhite4 from '@/images/resources/logowhite4.png'
-import logoblack4 from '@/images/resources/logoblack4.png'
+// import logo from "/images/resources/logo-1.png";
+// import logo2 from "/images/resources/logo-2.png";
+// import logoblack from '/images/resources/logoblack.png'
+// import logowhite from '/images/resources/logowhite.png'
+// import logowhite2 from '/images/resources/logowhite2.png'
+// import logoblack2 from '/images/resources/logoblack2.png'
+// import logoblack3 from '/images/resources/logoblack3.png'
+// import logowhite3 from '/images/resources/logowhite3.png'
+// import logowhite4 from '/images/resources/logowhite4.png'
+// import logoblack4 from '/images/resources/logoblack4.png'
 
 const navItems = [
   {
@@ -106,16 +106,16 @@ const headerData = {
   ],
   navItems,
   social,
-  logo,
-  logo2,
-  logowhite,
-  logoblack,
-  logoblack2,
-  logowhite2,
-  logowhite3,
-  logoblack3,
-  logoblack4,
-  logowhite4
+  logo: "/images/resources/logo-1.png",
+  logo2: "/images/resources/logo-2.png",
+  logowhite: '/images/resources/logowhite.png',
+  logoblack: '/images/resources/logoblack.png',
+  logoblack2: '/images/resources/logowhite2.png',
+  logowhite2: '/images/resources/logoblack2.png',
+  logowhite3: '/images/resources/logoblack3.png',
+  logoblack3: '/images/resources/logowhite3.png',
+  logoblack4: '/images/resources/logoblack4.png',
+  logowhite4:'/images/resources/logowhite4.png'
 };
 
 export default headerData;

@@ -1,4 +1,4 @@
-import loader from "@/images/resources/logowhite4.png";
+import loader from "@/../public/images/resources/logowhite4.png";
 import React from "react";
 import { Image } from "react-bootstrap";
 

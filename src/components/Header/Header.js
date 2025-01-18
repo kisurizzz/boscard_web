@@ -39,7 +39,7 @@ const Header = ({ pageTitle }) => {
               <div className="main-header__top-right-inner">
                 <div className="main-header__top-right-social">
                   {social.map(({ icon, link }, index) => (
-                    <a href={link} key={index} target="_blank" >
+                    <a href={link} key={index} target="_blank" rel="noopener noreferrer" >
                       <i className={`fab ${icon}`}></i>
                     </a>
                   ))}
@@ -81,7 +81,7 @@ const Header = ({ pageTitle }) => {
                       <Image
                         // src={pageTitle === "Home Two" ? logo2.src : logo.src}
                         // alt=""
-                        src={pageTitle === "Home Two" ? logowhite4.src : logoblack4.src}
+                        src={pageTitle === "Home Two" ? logowhite4 : logoblack4}
                         alt=""
                         style={{ width: "auto", height: "auto", padding: '0px', margin: '0px' }}
                       />

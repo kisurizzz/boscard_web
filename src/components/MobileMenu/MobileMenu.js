@@ -56,7 +56,7 @@ const MobileMenu = () => {
         <div className="mobile-nav__top">
           <div className="mobile-nav__social">
             {social.map(({ icon, link }, index) => (
-              <a href={link} key={index} className={`fab ${icon}`} target="blank"></a>
+              <a href={link} key={index} className={`fab ${icon}`} target="blank" rel="noopener noreferrer"></a>
             ))}
           </div>
         </div>

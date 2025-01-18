@@ -8,6 +8,7 @@ import CommentOne from "./CommentOne";
 
 const {
   image,
+  image2,
   date,
   author,
   totalComments,
@@ -23,7 +24,7 @@ const NewsDetailsLeft = () => {
   return (
     <div className="news-details__left">
       <div className="news-details__img">
-        <Image src={image.src} alt="" />
+        <Image src={image} alt="" />
         <div className="news-one__date">
           <p>
             {date.split(" ").map((t, i) => (
