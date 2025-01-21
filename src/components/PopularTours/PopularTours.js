@@ -4,7 +4,7 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import SingleTour from "./SingleTour";
 
-const TinySlider = dynamic(() => import("tiny-slider-react"), { ssr: false });
+// const TinySlider = dynamic(() => import("tiny-slider-react"), { ssr: false });
 
 const settings = {
   lazyload: true,
@@ -41,11 +41,11 @@ const PopularTours = () => {
         <Row>
           <Col xl={12}>
             <div className="popular-tours__carousel">
-              <TinySlider settings={settings}>
+              {/* <TinySlider settings={settings}>
                 {popularTours.map((tour) => (
                   <SingleTour key={tour.id} tour={tour} />
                 ))}
-              </TinySlider>
+              </TinySlider> */}
             </div>
           </Col>
         </Row>

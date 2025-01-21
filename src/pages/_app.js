@@ -8,7 +8,7 @@ import "@/../public/vendors/fontawesome/css/all.min.css";
 import "@/../public/vendors/tevily-icons/style.css";
 import "@/../public/vendors/reey-font/stylesheet.css";
 import "react-datepicker/dist/react-datepicker.css";
-import "react-rangeslider/lib/index.css";
+// import "react-rangeslider/lib/index.css";
 
 // extra css
 import "@/styles/globals.css";
