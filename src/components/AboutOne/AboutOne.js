@@ -12,6 +12,8 @@ const {
   title,
   destination,
   points,
+  safariLogo,
+  text
 } = aboutOne;
 
 const AboutOne = () => {
@@ -62,23 +64,42 @@ const AboutOne = () => {
                   </p>
                 ))}
               </div>
-              {/* <p className="about-one__right-text" key={index}>{destination}</p> */}
-              
-              {/* <ul className="list-unstyled about-one__points">
-                {points.map((point, index) => (
-                  <li key={index}>
-                    <div className="icon">
-                      <i className="fa fa-check"></i>
-                    </div>
-                    <div className="text">
-                      <p>{point}</p>
-                    </div>
-                  </li>
-                ))}
-              </ul> */}
-              <a href="#" className="about-one__btn thm-btn">
-                Book with us now
-              </a>
+
+              <div className="d-flex align-items-center gap-3 mb-5 mt-3">
+                <p className="about-page__text-2 m-0">{text}</p>
+                <a
+                  href="https://www.safaribookings.com/"
+                  title="Safaribookings"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Image
+                    src={safariLogo}
+                    alt="Safari Bookings Logo"
+                    style={{ maxWidth: "150px", width: "100%", height: "auto" }}
+                  />
+                </a>
+              </div>
+
+              <div className="d-flex align-items-center mt-4">
+                <a href="https://api.whatsapp.com/send?phone=254722121633&text=Hello,%20I%27d%20like%20to%20get%20in%20touch,%20more%20information!" className="about-one__btn thm-btn me-5"
+                target="_blank"
+                rel="noreferrer">
+                  Book with us now
+                </a>
+                <a
+                  href="https://www.touristlink.com/user/anne-kamwati.html?sereferer=2355CD59"
+                  title="Touristlink Certified Member"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Image
+                    src="https://cdn1.touristlink.com/assets/shared/images/badge/certified_150x150.png"
+                    alt="Touristlink Certification Badge"
+                    style={{ maxWidth: "150px", width: "100%", height: "auto" }}
+                  />
+                </a>
+              </div>
             </div>
           </Col>
         </Row>

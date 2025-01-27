@@ -3,7 +3,17 @@ import React, { useState } from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import VisibilitySensor from "react-visibility-sensor";
 
-const { image,image2, tagline, title, text1, text2, progress } = aboutPage;
+const {
+  image,
+  image2,
+  safariLogo,
+  tagline,
+  title,
+  text1,
+  text2,
+  text3,
+  progress,
+} = aboutPage;
 
 const AboutPage = () => {
   const [countStart, setCountStart] = useState(false);
@@ -33,6 +43,21 @@ const AboutPage = () => {
               </div>
               <p className="about-page__text-1">{text1}</p>
               <p className="about-page__text-2">{text2}</p>
+              <div className="d-flex align-items-center gap-3 mb-3 mt-3">
+                <p className="about-page__text-2 m-0">{text3}</p>
+                <a
+                  href="https://www.safaribookings.com/"
+                  title="Safaribookings"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Image
+                    src={safariLogo}
+                    alt="Safari Bookings Logo"
+                    style={{ maxWidth: "170px", width: "100%", height: "auto" }}
+                  />
+                </a>
+              </div>
               <div className="about-page__progress">
                 {progress.map(({ id, title, count }) => (
                   <div className="about-page__progress-single" key={id}>

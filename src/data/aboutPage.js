@@ -29,11 +29,13 @@
 const aboutPage = {
   image: "/images/resources/about-page-img.jpg",
   image2: "/images/resources/pexels-sara-sukosd-575557039-27832451.jpg",
+  safariLogo: "/images/resources/safaribookingslogobg.png",
   tagline: "Learn about us",
   title: "Dare to Explore with Boscard Tours",
   text1: "A Simply Perfect Place to Get Lost",
   text2:
     "Experience Kenya's untamed beauty with Boscard Tours and Travel. We craft unforgettable safaris through Kenya's most spectacular parks, combining expert guides and premium vehicles to turn your African adventure dreams into reality.",
+ text3: "We are proud to be associated with",
   progress: [
     {
       id: 1,

@@ -8,6 +8,8 @@ const aboutOne = {
   // discount: "30%",
   tagline: "Get to know us",
   title: "Explore Kenya, Embrace the Wild with Boscard Tours",
+  text: "We are proud to be associated with",
+  safariLogo: "/images/resources/safaribookingslogobg.png",
   destination: [
     "At Boscard Tours, we specialize in curating unforgettable safari experiences across Kenya's breathtaking landscapes. From the iconic plains of the Maasai Mara to the serene shores of Lake Naivasha, we bring you closer to nature's wonders and Kenya's rich cultural heritage.",
     "With a passion for adventure and a commitment to excellence, our expert guides ensure every journey is immersive, safe, and tailored to your dreams. Whether you're chasing the Big Five or seeking serene escapes, Boscard Tours promises memories that last a lifetime.",
